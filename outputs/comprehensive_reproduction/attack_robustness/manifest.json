@@ -1,0 +1,98 @@
+{
+  "experiment": "attack_robustness",
+  "description": "Attack-type and trigger-variant comparison.",
+  "focus_metrics": [
+    "asr",
+    "asr_drop_vs_poisoned",
+    "clean_acc",
+    "method-specific detection fields"
+  ],
+  "elapsed_sec": 4395.053321361542,
+  "scenarios": [
+    "mnist_dirichlet_alpha05_backdoor_square",
+    "mnist_dirichlet_alpha05_backdoor_plus",
+    "mnist_dirichlet_alpha05_backdoor_center",
+    "mnist_dirichlet_alpha05_label_flip",
+    "mnist_dirichlet_alpha05_model_replacement",
+    "fmnist_dirichlet_alpha05_backdoor_square",
+    "fmnist_dirichlet_alpha05_label_flip",
+    "fmnist_dirichlet_alpha05_model_replacement",
+    "cifar10_dirichlet_alpha05_backdoor_square",
+    "cifar10_dirichlet_alpha05_label_flip",
+    "cifar10_dirichlet_alpha05_model_replacement"
+  ],
+  "runs": [
+    {
+      "scenario": "mnist_dirichlet_alpha05_backdoor_square",
+      "elapsed_sec": 466.7989149093628,
+      "log_path": "outputs\\comprehensive_reproduction\\attack_robustness\\mnist_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\attack_robustness\\mnist_dirichlet_alpha05_backdoor_square\\run-20260524-093816"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha05_backdoor_plus",
+      "elapsed_sec": 456.4451723098755,
+      "log_path": "outputs\\comprehensive_reproduction\\attack_robustness\\mnist_dirichlet_alpha05_backdoor_plus\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\attack_robustness\\mnist_dirichlet_alpha05_backdoor_plus\\run-20260524-094559"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha05_backdoor_center",
+      "elapsed_sec": 441.49183225631714,
+      "log_path": "outputs\\comprehensive_reproduction\\attack_robustness\\mnist_dirichlet_alpha05_backdoor_center\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\attack_robustness\\mnist_dirichlet_alpha05_backdoor_center\\run-20260524-095336"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha05_label_flip",
+      "elapsed_sec": 429.05121183395386,
+      "log_path": "outputs\\comprehensive_reproduction\\attack_robustness\\mnist_dirichlet_alpha05_label_flip\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\attack_robustness\\mnist_dirichlet_alpha05_label_flip\\run-20260524-100057"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha05_model_replacement",
+      "elapsed_sec": 426.3289337158203,
+      "log_path": "outputs\\comprehensive_reproduction\\attack_robustness\\mnist_dirichlet_alpha05_model_replacement\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\attack_robustness\\mnist_dirichlet_alpha05_model_replacement\\run-20260524-100806"
+    },
+    {
+      "scenario": "fmnist_dirichlet_alpha05_backdoor_square",
+      "elapsed_sec": 446.0276880264282,
+      "log_path": "outputs\\comprehensive_reproduction\\attack_robustness\\fmnist_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\attack_robustness\\fmnist_dirichlet_alpha05_backdoor_square\\run-20260524-101513"
+    },
+    {
+      "scenario": "fmnist_dirichlet_alpha05_label_flip",
+      "elapsed_sec": 444.32321667671204,
+      "log_path": "outputs\\comprehensive_reproduction\\attack_robustness\\fmnist_dirichlet_alpha05_label_flip\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\attack_robustness\\fmnist_dirichlet_alpha05_label_flip\\run-20260524-102239"
+    },
+    {
+      "scenario": "fmnist_dirichlet_alpha05_model_replacement",
+      "elapsed_sec": 432.1026360988617,
+      "log_path": "outputs\\comprehensive_reproduction\\attack_robustness\\fmnist_dirichlet_alpha05_model_replacement\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\attack_robustness\\fmnist_dirichlet_alpha05_model_replacement\\run-20260524-103003"
+    },
+    {
+      "scenario": "cifar10_dirichlet_alpha05_backdoor_square",
+      "elapsed_sec": 278.9131495952606,
+      "log_path": "outputs\\comprehensive_reproduction\\attack_robustness\\cifar10_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\attack_robustness\\cifar10_dirichlet_alpha05_backdoor_square\\run-20260524-103715"
+    },
+    {
+      "scenario": "cifar10_dirichlet_alpha05_label_flip",
+      "elapsed_sec": 289.42820596694946,
+      "log_path": "outputs\\comprehensive_reproduction\\attack_robustness\\cifar10_dirichlet_alpha05_label_flip\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\attack_robustness\\cifar10_dirichlet_alpha05_label_flip\\run-20260524-104154"
+    },
+    {
+      "scenario": "cifar10_dirichlet_alpha05_model_replacement",
+      "elapsed_sec": 283.9490945339203,
+      "log_path": "outputs\\comprehensive_reproduction\\attack_robustness\\cifar10_dirichlet_alpha05_model_replacement\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\attack_robustness\\cifar10_dirichlet_alpha05_model_replacement\\run-20260524-104643"
+    }
+  ],
+  "outputs": {
+    "summary_csv": "outputs\\comprehensive_reproduction\\attack_robustness\\summary.csv",
+    "summary_json": "outputs\\comprehensive_reproduction\\attack_robustness\\summary.json",
+    "detailed_csv": "outputs\\comprehensive_reproduction\\attack_robustness\\detailed_results.csv",
+    "detailed_json": "outputs\\comprehensive_reproduction\\attack_robustness\\detailed_results.json"
+  }
+}

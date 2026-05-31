@@ -1,0 +1,257 @@
+{
+  "paper": "Model Inversion Attack Against Federated Unlearning",
+  "method": "FUIA",
+  "config": {
+    "paper": "Model Inversion Attack Against Federated Unlearning",
+    "method": "FUIA",
+    "dataset": "mnist",
+    "classes": [
+      0,
+      1
+    ],
+    "data_root": "D:\\\u6211\u7684\u6587\u4ef6\\\u6089\u5c3c\u5927\u5b66S3\\Capstone\\fu_repro_benchmark\\data",
+    "download": false,
+    "train_size": 6000,
+    "test_size": 1000,
+    "num_clients": 10,
+    "partition": "iid",
+    "dirichlet_alpha": 0.5,
+    "client_id": 0,
+    "forgotten_samples": 1,
+    "forgotten_classes": [
+      1
+    ],
+    "model": "smallcnn",
+    "pretrain_epochs": 20,
+    "unlearning_epochs": 3,
+    "local_epochs": 2,
+    "batch_size": 32,
+    "lr": 0.08,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "client_unlearning_samples": 1,
+    "inversion_steps": 1500,
+    "inversion_restarts": 5,
+    "inversion_lr": 0.05,
+    "tv_weight": 5e-05,
+    "gradient_magnitude_weight": 0.001,
+    "client_gamma": 0.1,
+    "class_beta": 0.5,
+    "seed": 2026,
+    "device": "auto",
+    "output_dir": "D:\\\u6211\u7684\u6587\u4ef6\\\u6089\u5c3c\u5927\u5b66S3\\Capstone\\fu_repro_benchmark\\outputs\\attack_reproduction\\fuia_model_inversion"
+  },
+  "dataset_info": {
+    "name": "mnist",
+    "in_channels": 1,
+    "image_size": 28,
+    "num_classes": 2,
+    "classes": [
+      0,
+      1
+    ]
+  },
+  "clean_accuracy": 1.0,
+  "results": [
+    {
+      "scenario": "sample_unlearning",
+      "true_label": 1,
+      "inferred_label": 1,
+      "label_correct": 1.0,
+      "mse": 0.003128055715933442,
+      "psnr": 25.04725520028126,
+      "ssim": 0.9620577692985535,
+      "trace": [
+        {
+          "restart": 4,
+          "step": 0,
+          "gradient_loss": 0.963528037071228,
+          "tv_loss": 0.49307265877723694,
+          "total_loss": 0.963552713394165
+        },
+        {
+          "restart": 4,
+          "step": 150,
+          "gradient_loss": 0.03904331848025322,
+          "tv_loss": 0.24020139873027802,
+          "total_loss": 0.03905532881617546
+        },
+        {
+          "restart": 4,
+          "step": 300,
+          "gradient_loss": 0.018029525876045227,
+          "tv_loss": 0.1690862774848938,
+          "total_loss": 0.018037980422377586
+        },
+        {
+          "restart": 4,
+          "step": 450,
+          "gradient_loss": 0.009781936183571815,
+          "tv_loss": 0.1334194839000702,
+          "total_loss": 0.009788607247173786
+        },
+        {
+          "restart": 4,
+          "step": 600,
+          "gradient_loss": 0.005395314656198025,
+          "tv_loss": 0.11931828409433365,
+          "total_loss": 0.0054012807086110115
+        },
+        {
+          "restart": 4,
+          "step": 750,
+          "gradient_loss": 0.004117027390748262,
+          "tv_loss": 0.11251673102378845,
+          "total_loss": 0.004122653044760227
+        },
+        {
+          "restart": 4,
+          "step": 900,
+          "gradient_loss": 0.0012382847489789128,
+          "tv_loss": 0.10754022002220154,
+          "total_loss": 0.0012436617398634553
+        },
+        {
+          "restart": 4,
+          "step": 1050,
+          "gradient_loss": 0.001010583946481347,
+          "tv_loss": 0.10444046556949615,
+          "total_loss": 0.001015805988572538
+        },
+        {
+          "restart": 4,
+          "step": 1200,
+          "gradient_loss": 0.0009392289211973548,
+          "tv_loss": 0.10224978625774384,
+          "total_loss": 0.0009443414164707065
+        },
+        {
+          "restart": 4,
+          "step": 1350,
+          "gradient_loss": 0.0008501394768245518,
+          "tv_loss": 0.10025225579738617,
+          "total_loss": 0.000855152087751776
+        },
+        {
+          "restart": 4,
+          "step": 1499,
+          "gradient_loss": 0.000789388723205775,
+          "tv_loss": 0.09862364828586578,
+          "total_loss": 0.0007943199016153812
+        }
+      ]
+    },
+    {
+      "scenario": "client_unlearning",
+      "true_label": 1,
+      "inferred_label": 1,
+      "label_correct": 1.0,
+      "mse": 0.0050951037555933,
+      "psnr": 22.92846967688402,
+      "ssim": 0.944333553314209,
+      "trace": [
+        {
+          "restart": 1,
+          "step": 0,
+          "gradient_loss": 1.0100343227386475,
+          "tv_loss": 0.46753036975860596,
+          "total_loss": 1.0100576877593994
+        },
+        {
+          "restart": 1,
+          "step": 150,
+          "gradient_loss": 0.1344233751296997,
+          "tv_loss": 0.21739503741264343,
+          "total_loss": 0.13443423807621002
+        },
+        {
+          "restart": 1,
+          "step": 300,
+          "gradient_loss": 0.12277498841285706,
+          "tv_loss": 0.1528129279613495,
+          "total_loss": 0.1227826327085495
+        },
+        {
+          "restart": 1,
+          "step": 450,
+          "gradient_loss": 0.12037269026041031,
+          "tv_loss": 0.13232561945915222,
+          "total_loss": 0.12037930637598038
+        },
+        {
+          "restart": 1,
+          "step": 600,
+          "gradient_loss": 0.11610232293605804,
+          "tv_loss": 0.12309589982032776,
+          "total_loss": 0.1161084771156311
+        },
+        {
+          "restart": 1,
+          "step": 750,
+          "gradient_loss": 0.11579731851816177,
+          "tv_loss": 0.11897867918014526,
+          "total_loss": 0.11580326408147812
+        },
+        {
+          "restart": 1,
+          "step": 900,
+          "gradient_loss": 0.11542101949453354,
+          "tv_loss": 0.11614541709423065,
+          "total_loss": 0.11542682349681854
+        },
+        {
+          "restart": 1,
+          "step": 1050,
+          "gradient_loss": 0.11519292742013931,
+          "tv_loss": 0.11405527591705322,
+          "total_loss": 0.11519862711429596
+        },
+        {
+          "restart": 1,
+          "step": 1200,
+          "gradient_loss": 0.11513170599937439,
+          "tv_loss": 0.11247430741786957,
+          "total_loss": 0.11513733118772507
+        },
+        {
+          "restart": 1,
+          "step": 1350,
+          "gradient_loss": 0.11506091803312302,
+          "tv_loss": 0.11116713285446167,
+          "total_loss": 0.11506647616624832
+        },
+        {
+          "restart": 1,
+          "step": 1499,
+          "gradient_loss": 0.11504196375608444,
+          "tv_loss": 0.11029980331659317,
+          "total_loss": 0.11504747718572617
+        }
+      ]
+    },
+    {
+      "scenario": "class_unlearning",
+      "true_labels": [
+        1
+      ],
+      "predicted_labels": [
+        1
+      ],
+      "accuracy": 1.0,
+      "scores": [
+        0.4749525785446167,
+        0.5250474214553833
+      ],
+      "post_unlearning_clean_accuracy": 0.999
+    }
+  ],
+  "metrics": {
+    "sample_mse": 0.003128055715933442,
+    "sample_psnr": 25.04725520028126,
+    "client_mse": 0.0050951037555933,
+    "client_psnr": 22.92846967688402,
+    "class_accuracy": 1.0,
+    "elapsed_sec": 80.2571617999929
+  },
+  "output_dir": "D:\\\u6211\u7684\u6587\u4ef6\\\u6089\u5c3c\u5927\u5b66S3\\Capstone\\fu_repro_benchmark\\outputs\\attack_reproduction\\fuia_model_inversion\\run-20260525-201518"
+}

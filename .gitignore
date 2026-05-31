@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local environment
+.venv/
+
+# Downloaded datasets
+data/

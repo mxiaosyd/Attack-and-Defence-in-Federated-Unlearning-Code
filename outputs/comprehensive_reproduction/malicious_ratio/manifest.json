@@ -1,0 +1,77 @@
+{
+  "experiment": "malicious_ratio",
+  "description": "Malicious-client ratio stress test.",
+  "focus_metrics": [
+    "clean_acc",
+    "asr",
+    "asr_drop_vs_poisoned",
+    "clean_acc_gap_to_retrain"
+  ],
+  "elapsed_sec": 2983.803531885147,
+  "scenarios": [
+    "mnist_dirichlet_alpha05_backdoor_10p_malicious",
+    "mnist_dirichlet_alpha05_backdoor_square",
+    "mnist_dirichlet_alpha05_backdoor_30p_malicious",
+    "mnist_dirichlet_alpha05_backdoor_40p_malicious",
+    "fmnist_dirichlet_alpha05_backdoor_10p_malicious",
+    "fmnist_dirichlet_alpha05_backdoor_40p_malicious",
+    "cifar10_dirichlet_alpha05_backdoor_10p_malicious",
+    "cifar10_dirichlet_alpha05_backdoor_40p_malicious"
+  ],
+  "runs": [
+    {
+      "scenario": "mnist_dirichlet_alpha05_backdoor_10p_malicious",
+      "elapsed_sec": 456.5043456554413,
+      "log_path": "outputs\\comprehensive_reproduction\\malicious_ratio\\mnist_dirichlet_alpha05_backdoor_10p_malicious\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\malicious_ratio\\mnist_dirichlet_alpha05_backdoor_10p_malicious\\run-20260524-110054"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha05_backdoor_square",
+      "elapsed_sec": 431.12262630462646,
+      "log_path": "outputs\\comprehensive_reproduction\\malicious_ratio\\mnist_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\malicious_ratio\\mnist_dirichlet_alpha05_backdoor_square\\run-20260524-110830"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha05_backdoor_30p_malicious",
+      "elapsed_sec": 389.13694977760315,
+      "log_path": "outputs\\comprehensive_reproduction\\malicious_ratio\\mnist_dirichlet_alpha05_backdoor_30p_malicious\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\malicious_ratio\\mnist_dirichlet_alpha05_backdoor_30p_malicious\\run-20260524-111541"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha05_backdoor_40p_malicious",
+      "elapsed_sec": 375.359662771225,
+      "log_path": "outputs\\comprehensive_reproduction\\malicious_ratio\\mnist_dirichlet_alpha05_backdoor_40p_malicious\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\malicious_ratio\\mnist_dirichlet_alpha05_backdoor_40p_malicious\\run-20260524-112210"
+    },
+    {
+      "scenario": "fmnist_dirichlet_alpha05_backdoor_10p_malicious",
+      "elapsed_sec": 424.1105840206146,
+      "log_path": "outputs\\comprehensive_reproduction\\malicious_ratio\\fmnist_dirichlet_alpha05_backdoor_10p_malicious\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\malicious_ratio\\fmnist_dirichlet_alpha05_backdoor_10p_malicious\\run-20260524-112826"
+    },
+    {
+      "scenario": "fmnist_dirichlet_alpha05_backdoor_40p_malicious",
+      "elapsed_sec": 385.33371567726135,
+      "log_path": "outputs\\comprehensive_reproduction\\malicious_ratio\\fmnist_dirichlet_alpha05_backdoor_40p_malicious\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\malicious_ratio\\fmnist_dirichlet_alpha05_backdoor_40p_malicious\\run-20260524-113533"
+    },
+    {
+      "scenario": "cifar10_dirichlet_alpha05_backdoor_10p_malicious",
+      "elapsed_sec": 282.07780361175537,
+      "log_path": "outputs\\comprehensive_reproduction\\malicious_ratio\\cifar10_dirichlet_alpha05_backdoor_10p_malicious\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\malicious_ratio\\cifar10_dirichlet_alpha05_backdoor_10p_malicious\\run-20260524-114155"
+    },
+    {
+      "scenario": "cifar10_dirichlet_alpha05_backdoor_40p_malicious",
+      "elapsed_sec": 240.01902890205383,
+      "log_path": "outputs\\comprehensive_reproduction\\malicious_ratio\\cifar10_dirichlet_alpha05_backdoor_40p_malicious\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\malicious_ratio\\cifar10_dirichlet_alpha05_backdoor_40p_malicious\\run-20260524-114637"
+    }
+  ],
+  "outputs": {
+    "summary_csv": "outputs\\comprehensive_reproduction\\malicious_ratio\\summary.csv",
+    "summary_json": "outputs\\comprehensive_reproduction\\malicious_ratio\\summary.json",
+    "detailed_csv": "outputs\\comprehensive_reproduction\\malicious_ratio\\detailed_results.csv",
+    "detailed_json": "outputs\\comprehensive_reproduction\\malicious_ratio\\detailed_results.json"
+  }
+}

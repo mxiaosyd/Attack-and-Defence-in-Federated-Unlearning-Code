@@ -1,0 +1,81 @@
+{
+  "experiment": "malicious_ratio",
+  "description": "Malicious-client ratio stress test.",
+  "focus_metrics": [
+    "clean_acc",
+    "asr",
+    "asr_drop_vs_poisoned",
+    "clean_acc_gap_to_retrain"
+  ],
+  "methods": [
+    "FedSweep+",
+    "FAST+"
+  ],
+  "elapsed_sec": 1759.9074523448944,
+  "scenarios": [
+    "mnist_dirichlet_alpha05_backdoor_10p_malicious",
+    "mnist_dirichlet_alpha05_backdoor_square",
+    "mnist_dirichlet_alpha05_backdoor_30p_malicious",
+    "mnist_dirichlet_alpha05_backdoor_40p_malicious",
+    "fmnist_dirichlet_alpha05_backdoor_10p_malicious",
+    "fmnist_dirichlet_alpha05_backdoor_40p_malicious",
+    "cifar10_dirichlet_alpha05_backdoor_10p_malicious",
+    "cifar10_dirichlet_alpha05_backdoor_40p_malicious"
+  ],
+  "runs": [
+    {
+      "scenario": "mnist_dirichlet_alpha05_backdoor_10p_malicious",
+      "elapsed_sec": 269.0962255001068,
+      "log_path": "outputs\\improved_validation\\malicious_ratio\\mnist_dirichlet_alpha05_backdoor_10p_malicious\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\malicious_ratio\\mnist_dirichlet_alpha05_backdoor_10p_malicious\\run-20260527-031235"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha05_backdoor_square",
+      "elapsed_sec": 251.84149479866028,
+      "log_path": "outputs\\improved_validation\\malicious_ratio\\mnist_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\malicious_ratio\\mnist_dirichlet_alpha05_backdoor_square\\run-20260527-031704"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha05_backdoor_30p_malicious",
+      "elapsed_sec": 238.52645349502563,
+      "log_path": "outputs\\improved_validation\\malicious_ratio\\mnist_dirichlet_alpha05_backdoor_30p_malicious\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\malicious_ratio\\mnist_dirichlet_alpha05_backdoor_30p_malicious\\run-20260527-032116"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha05_backdoor_40p_malicious",
+      "elapsed_sec": 224.3379898071289,
+      "log_path": "outputs\\improved_validation\\malicious_ratio\\mnist_dirichlet_alpha05_backdoor_40p_malicious\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\malicious_ratio\\mnist_dirichlet_alpha05_backdoor_40p_malicious\\run-20260527-032514"
+    },
+    {
+      "scenario": "fmnist_dirichlet_alpha05_backdoor_10p_malicious",
+      "elapsed_sec": 248.8579444885254,
+      "log_path": "outputs\\improved_validation\\malicious_ratio\\fmnist_dirichlet_alpha05_backdoor_10p_malicious\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\malicious_ratio\\fmnist_dirichlet_alpha05_backdoor_10p_malicious\\run-20260527-032858"
+    },
+    {
+      "scenario": "fmnist_dirichlet_alpha05_backdoor_40p_malicious",
+      "elapsed_sec": 224.03763103485107,
+      "log_path": "outputs\\improved_validation\\malicious_ratio\\fmnist_dirichlet_alpha05_backdoor_40p_malicious\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\malicious_ratio\\fmnist_dirichlet_alpha05_backdoor_40p_malicious\\run-20260527-033307"
+    },
+    {
+      "scenario": "cifar10_dirichlet_alpha05_backdoor_10p_malicious",
+      "elapsed_sec": 160.5375690460205,
+      "log_path": "outputs\\improved_validation\\malicious_ratio\\cifar10_dirichlet_alpha05_backdoor_10p_malicious\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\malicious_ratio\\cifar10_dirichlet_alpha05_backdoor_10p_malicious\\run-20260527-033651"
+    },
+    {
+      "scenario": "cifar10_dirichlet_alpha05_backdoor_40p_malicious",
+      "elapsed_sec": 142.52394270896912,
+      "log_path": "outputs\\improved_validation\\malicious_ratio\\cifar10_dirichlet_alpha05_backdoor_40p_malicious\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\malicious_ratio\\cifar10_dirichlet_alpha05_backdoor_40p_malicious\\run-20260527-033932"
+    }
+  ],
+  "outputs": {
+    "summary_csv": "outputs\\improved_validation\\malicious_ratio\\summary.csv",
+    "summary_json": "outputs\\improved_validation\\malicious_ratio\\summary.json",
+    "detailed_csv": "outputs\\improved_validation\\malicious_ratio\\detailed_results.csv",
+    "detailed_json": "outputs\\improved_validation\\malicious_ratio\\detailed_results.json"
+  }
+}

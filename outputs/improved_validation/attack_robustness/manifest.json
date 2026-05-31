@@ -1,0 +1,102 @@
+{
+  "experiment": "attack_robustness",
+  "description": "Attack-type and trigger-variant comparison.",
+  "focus_metrics": [
+    "asr",
+    "asr_drop_vs_poisoned",
+    "clean_acc",
+    "method-specific detection fields"
+  ],
+  "methods": [
+    "FedSweep+",
+    "FAST+"
+  ],
+  "elapsed_sec": 2438.6204533576965,
+  "scenarios": [
+    "mnist_dirichlet_alpha05_backdoor_square",
+    "mnist_dirichlet_alpha05_backdoor_plus",
+    "mnist_dirichlet_alpha05_backdoor_center",
+    "mnist_dirichlet_alpha05_label_flip",
+    "mnist_dirichlet_alpha05_model_replacement",
+    "fmnist_dirichlet_alpha05_backdoor_square",
+    "fmnist_dirichlet_alpha05_label_flip",
+    "fmnist_dirichlet_alpha05_model_replacement",
+    "cifar10_dirichlet_alpha05_backdoor_square",
+    "cifar10_dirichlet_alpha05_label_flip",
+    "cifar10_dirichlet_alpha05_model_replacement"
+  ],
+  "runs": [
+    {
+      "scenario": "mnist_dirichlet_alpha05_backdoor_square",
+      "elapsed_sec": 247.7438349723816,
+      "log_path": "outputs\\improved_validation\\attack_robustness\\mnist_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\attack_robustness\\mnist_dirichlet_alpha05_backdoor_square\\run-20260527-011223"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha05_backdoor_plus",
+      "elapsed_sec": 242.72733783721924,
+      "log_path": "outputs\\improved_validation\\attack_robustness\\mnist_dirichlet_alpha05_backdoor_plus\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\attack_robustness\\mnist_dirichlet_alpha05_backdoor_plus\\run-20260527-011628"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha05_backdoor_center",
+      "elapsed_sec": 241.4657323360443,
+      "log_path": "outputs\\improved_validation\\attack_robustness\\mnist_dirichlet_alpha05_backdoor_center\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\attack_robustness\\mnist_dirichlet_alpha05_backdoor_center\\run-20260527-012031"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha05_label_flip",
+      "elapsed_sec": 240.55610418319702,
+      "log_path": "outputs\\improved_validation\\attack_robustness\\mnist_dirichlet_alpha05_label_flip\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\attack_robustness\\mnist_dirichlet_alpha05_label_flip\\run-20260527-012432"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha05_model_replacement",
+      "elapsed_sec": 245.42065238952637,
+      "log_path": "outputs\\improved_validation\\attack_robustness\\mnist_dirichlet_alpha05_model_replacement\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\attack_robustness\\mnist_dirichlet_alpha05_model_replacement\\run-20260527-012833"
+    },
+    {
+      "scenario": "fmnist_dirichlet_alpha05_backdoor_square",
+      "elapsed_sec": 248.8621702194214,
+      "log_path": "outputs\\improved_validation\\attack_robustness\\fmnist_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\attack_robustness\\fmnist_dirichlet_alpha05_backdoor_square\\run-20260527-013238"
+    },
+    {
+      "scenario": "fmnist_dirichlet_alpha05_label_flip",
+      "elapsed_sec": 250.12201952934265,
+      "log_path": "outputs\\improved_validation\\attack_robustness\\fmnist_dirichlet_alpha05_label_flip\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\attack_robustness\\fmnist_dirichlet_alpha05_label_flip\\run-20260527-013647"
+    },
+    {
+      "scenario": "fmnist_dirichlet_alpha05_model_replacement",
+      "elapsed_sec": 246.92008018493652,
+      "log_path": "outputs\\improved_validation\\attack_robustness\\fmnist_dirichlet_alpha05_model_replacement\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\attack_robustness\\fmnist_dirichlet_alpha05_model_replacement\\run-20260527-014057"
+    },
+    {
+      "scenario": "cifar10_dirichlet_alpha05_backdoor_square",
+      "elapsed_sec": 155.49913001060486,
+      "log_path": "outputs\\improved_validation\\attack_robustness\\cifar10_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\attack_robustness\\cifar10_dirichlet_alpha05_backdoor_square\\run-20260527-014504"
+    },
+    {
+      "scenario": "cifar10_dirichlet_alpha05_label_flip",
+      "elapsed_sec": 158.19581866264343,
+      "log_path": "outputs\\improved_validation\\attack_robustness\\cifar10_dirichlet_alpha05_label_flip\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\attack_robustness\\cifar10_dirichlet_alpha05_label_flip\\run-20260527-014739"
+    },
+    {
+      "scenario": "cifar10_dirichlet_alpha05_model_replacement",
+      "elapsed_sec": 160.90227913856506,
+      "log_path": "outputs\\improved_validation\\attack_robustness\\cifar10_dirichlet_alpha05_model_replacement\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\attack_robustness\\cifar10_dirichlet_alpha05_model_replacement\\run-20260527-015018"
+    }
+  ],
+  "outputs": {
+    "summary_csv": "outputs\\improved_validation\\attack_robustness\\summary.csv",
+    "summary_json": "outputs\\improved_validation\\attack_robustness\\summary.json",
+    "detailed_csv": "outputs\\improved_validation\\attack_robustness\\detailed_results.csv",
+    "detailed_json": "outputs\\improved_validation\\attack_robustness\\detailed_results.json"
+  }
+}

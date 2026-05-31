@@ -1,0 +1,81 @@
+{
+  "experiment": "data_distribution",
+  "description": "Dataset and IID/non-IID distribution comparison.",
+  "focus_metrics": [
+    "clean_acc",
+    "clean_acc_gap_to_retrain",
+    "asr",
+    "asr_gap_to_retrain"
+  ],
+  "methods": [
+    "FedSweep+",
+    "FAST+"
+  ],
+  "elapsed_sec": 1864.1600205898285,
+  "scenarios": [
+    "mnist_iid_backdoor_square",
+    "mnist_dirichlet_alpha1_backdoor_square",
+    "mnist_dirichlet_alpha05_backdoor_square",
+    "mnist_dirichlet_alpha01_backdoor_square",
+    "fmnist_iid_backdoor_square",
+    "fmnist_dirichlet_alpha05_backdoor_square",
+    "cifar10_iid_backdoor_square",
+    "cifar10_dirichlet_alpha05_backdoor_square"
+  ],
+  "runs": [
+    {
+      "scenario": "mnist_iid_backdoor_square",
+      "elapsed_sec": 252.44255018234253,
+      "log_path": "outputs\\improved_validation\\data_distribution\\mnist_iid_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\data_distribution\\mnist_iid_backdoor_square\\run-20260526-232038"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha1_backdoor_square",
+      "elapsed_sec": 259.82259464263916,
+      "log_path": "outputs\\improved_validation\\data_distribution\\mnist_dirichlet_alpha1_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\data_distribution\\mnist_dirichlet_alpha1_backdoor_square\\run-20260526-232450"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha05_backdoor_square",
+      "elapsed_sec": 256.2805931568146,
+      "log_path": "outputs\\improved_validation\\data_distribution\\mnist_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\data_distribution\\mnist_dirichlet_alpha05_backdoor_square\\run-20260526-232910"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha01_backdoor_square",
+      "elapsed_sec": 251.2210624217987,
+      "log_path": "outputs\\improved_validation\\data_distribution\\mnist_dirichlet_alpha01_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\data_distribution\\mnist_dirichlet_alpha01_backdoor_square\\run-20260526-233326"
+    },
+    {
+      "scenario": "fmnist_iid_backdoor_square",
+      "elapsed_sec": 240.39476609230042,
+      "log_path": "outputs\\improved_validation\\data_distribution\\fmnist_iid_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\data_distribution\\fmnist_iid_backdoor_square\\run-20260526-233738"
+    },
+    {
+      "scenario": "fmnist_dirichlet_alpha05_backdoor_square",
+      "elapsed_sec": 268.23715472221375,
+      "log_path": "outputs\\improved_validation\\data_distribution\\fmnist_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\data_distribution\\fmnist_dirichlet_alpha05_backdoor_square\\run-20260526-234138"
+    },
+    {
+      "scenario": "cifar10_iid_backdoor_square",
+      "elapsed_sec": 154.0370762348175,
+      "log_path": "outputs\\improved_validation\\data_distribution\\cifar10_iid_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\data_distribution\\cifar10_iid_backdoor_square\\run-20260526-234606"
+    },
+    {
+      "scenario": "cifar10_dirichlet_alpha05_backdoor_square",
+      "elapsed_sec": 181.5615131855011,
+      "log_path": "outputs\\improved_validation\\data_distribution\\cifar10_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\data_distribution\\cifar10_dirichlet_alpha05_backdoor_square\\run-20260526-234840"
+    }
+  ],
+  "outputs": {
+    "summary_csv": "outputs\\improved_validation\\data_distribution\\summary.csv",
+    "summary_json": "outputs\\improved_validation\\data_distribution\\summary.json",
+    "detailed_csv": "outputs\\improved_validation\\data_distribution\\detailed_results.csv",
+    "detailed_json": "outputs\\improved_validation\\data_distribution\\detailed_results.json"
+  }
+}

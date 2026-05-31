@@ -1,0 +1,60 @@
+{
+  "elapsed_sec": 1361.1438250541687,
+  "experiments": [
+    "efficiency"
+  ],
+  "runs": [
+    {
+      "experiment": "efficiency",
+      "description": "Runtime and storage-cost comparison on representative settings.",
+      "focus_metrics": [
+        "runtime_sec",
+        "history_storage_mb",
+        "method-specific storage fields"
+      ],
+      "elapsed_sec": 1361.1433382034302,
+      "scenarios": [
+        "synthetic_dirichlet_alpha05_backdoor_square",
+        "mnist_dirichlet_alpha05_backdoor_square",
+        "fmnist_dirichlet_alpha05_backdoor_square",
+        "cifar10_dirichlet_alpha05_backdoor_square"
+      ],
+      "runs": [
+        {
+          "scenario": "synthetic_dirichlet_alpha05_backdoor_square",
+          "elapsed_sec": 183.66841554641724,
+          "log_path": "outputs\\comprehensive_reproduction\\efficiency\\synthetic_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+          "run_dir": "outputs\\comprehensive_reproduction\\efficiency\\synthetic_dirichlet_alpha05_backdoor_square\\run-20260524-115202"
+        },
+        {
+          "scenario": "mnist_dirichlet_alpha05_backdoor_square",
+          "elapsed_sec": 443.4315083026886,
+          "log_path": "outputs\\comprehensive_reproduction\\efficiency\\mnist_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+          "run_dir": "outputs\\comprehensive_reproduction\\efficiency\\mnist_dirichlet_alpha05_backdoor_square\\run-20260524-115506"
+        },
+        {
+          "scenario": "fmnist_dirichlet_alpha05_backdoor_square",
+          "elapsed_sec": 445.5254611968994,
+          "log_path": "outputs\\comprehensive_reproduction\\efficiency\\fmnist_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+          "run_dir": "outputs\\comprehensive_reproduction\\efficiency\\fmnist_dirichlet_alpha05_backdoor_square\\run-20260524-120229"
+        },
+        {
+          "scenario": "cifar10_dirichlet_alpha05_backdoor_square",
+          "elapsed_sec": 288.4445207118988,
+          "log_path": "outputs\\comprehensive_reproduction\\efficiency\\cifar10_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+          "run_dir": "outputs\\comprehensive_reproduction\\efficiency\\cifar10_dirichlet_alpha05_backdoor_square\\run-20260524-120955"
+        }
+      ],
+      "outputs": {
+        "summary_csv": "outputs\\comprehensive_reproduction\\efficiency\\summary.csv",
+        "summary_json": "outputs\\comprehensive_reproduction\\efficiency\\summary.json",
+        "detailed_csv": "outputs\\comprehensive_reproduction\\efficiency\\detailed_results.csv",
+        "detailed_json": "outputs\\comprehensive_reproduction\\efficiency\\detailed_results.json"
+      },
+      "summary_csv": "outputs\\comprehensive_reproduction\\efficiency\\summary.csv",
+      "summary_json": "outputs\\comprehensive_reproduction\\efficiency\\summary.json",
+      "detailed_csv": "outputs\\comprehensive_reproduction\\efficiency\\detailed_results.csv",
+      "detailed_json": "outputs\\comprehensive_reproduction\\efficiency\\detailed_results.json"
+    }
+  ]
+}

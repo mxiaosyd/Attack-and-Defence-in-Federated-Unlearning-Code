@@ -1,0 +1,146 @@
+{
+  "paper": "Reconstruction Attacks on Forgotten Data in Federated Unlearning",
+  "method": "GAT-LA",
+  "config": {
+    "paper": "Reconstruction Attacks on Forgotten Data in Federated Unlearning",
+    "method": "GAT-LA",
+    "dataset": "mnist",
+    "data_root": "D:\\\u6211\u7684\u6587\u4ef6\\\u6089\u5c3c\u5927\u5b66S3\\Capstone\\fu_repro_benchmark\\data",
+    "download": false,
+    "train_size": 5000,
+    "test_size": 1000,
+    "num_clients": 10,
+    "partition": "iid",
+    "dirichlet_alpha": 0.5,
+    "client_id": 0,
+    "forgotten_samples": 1,
+    "model": "mlp",
+    "pretrain_epochs": 5,
+    "batch_size": 64,
+    "lr": 0.05,
+    "momentum": 0.9,
+    "weight_decay": 0.0005,
+    "aux_samples": 256,
+    "generator_epochs": 8,
+    "generator_hidden": 512,
+    "gradient_feature_dim": 512,
+    "autoencoder_epochs": 5,
+    "inversion_steps": 900,
+    "inversion_restarts": 3,
+    "inversion_lr": 0.06,
+    "tv_weight": 1e-05,
+    "as_weight": 0.001,
+    "gradient_magnitude_weight": 0.01,
+    "infer_label": true,
+    "seed": 2026,
+    "device": "auto",
+    "output_dir": "D:\\\u6211\u7684\u6587\u4ef6\\\u6089\u5c3c\u5927\u5b66S3\\Capstone\\fu_repro_benchmark\\outputs\\attack_reproduction\\gat_la_reconstruction"
+  },
+  "dataset_info": {
+    "name": "mnist",
+    "in_channels": 1,
+    "image_size": 28,
+    "num_classes": 10
+  },
+  "metrics": {
+    "clean_accuracy": 0.928,
+    "mse": 0.00012021819566143677,
+    "psnr": 39.20029794585353,
+    "ssim": 0.9986727237701416,
+    "label_inference_correct": 1.0,
+    "inferred_label": 1,
+    "true_label": 1,
+    "elapsed_sec": 16.60405649995664
+  },
+  "loss_trace": [
+    {
+      "restart": 0,
+      "step": 0,
+      "gradient_loss": 0.5763732194900513,
+      "tv_loss": 0.0530170202255249,
+      "as_loss": 0.03791256248950958,
+      "total_loss": 0.5764116644859314
+    },
+    {
+      "restart": 0,
+      "step": 90,
+      "gradient_loss": 0.034992896020412445,
+      "tv_loss": 0.07185518741607666,
+      "as_loss": 0.048349350690841675,
+      "total_loss": 0.035041965544223785
+    },
+    {
+      "restart": 0,
+      "step": 180,
+      "gradient_loss": 0.0285923033952713,
+      "tv_loss": 0.07126391679048538,
+      "as_loss": 0.05054469034075737,
+      "total_loss": 0.028643561527132988
+    },
+    {
+      "restart": 0,
+      "step": 270,
+      "gradient_loss": 0.027241133153438568,
+      "tv_loss": 0.07091285288333893,
+      "as_loss": 0.05189358443021774,
+      "total_loss": 0.027293736115098
+    },
+    {
+      "restart": 0,
+      "step": 360,
+      "gradient_loss": 0.027064362540841103,
+      "tv_loss": 0.07074907422065735,
+      "as_loss": 0.052796971052885056,
+      "total_loss": 0.027117867022752762
+    },
+    {
+      "restart": 0,
+      "step": 450,
+      "gradient_loss": 0.018269790336489677,
+      "tv_loss": 0.07071492075920105,
+      "as_loss": 0.05343339592218399,
+      "total_loss": 0.018323931843042374
+    },
+    {
+      "restart": 0,
+      "step": 540,
+      "gradient_loss": 0.012591131031513214,
+      "tv_loss": 0.07069557905197144,
+      "as_loss": 0.053906459361314774,
+      "total_loss": 0.01264574471861124
+    },
+    {
+      "restart": 0,
+      "step": 630,
+      "gradient_loss": 0.020327415317296982,
+      "tv_loss": 0.07071152329444885,
+      "as_loss": 0.05428368225693703,
+      "total_loss": 0.020382406190037727
+    },
+    {
+      "restart": 0,
+      "step": 720,
+      "gradient_loss": 0.012371544726192951,
+      "tv_loss": 0.07072019577026367,
+      "as_loss": 0.0545521080493927,
+      "total_loss": 0.012426803819835186
+    },
+    {
+      "restart": 0,
+      "step": 810,
+      "gradient_loss": 0.012307146564126015,
+      "tv_loss": 0.07072218507528305,
+      "as_loss": 0.054769475013017654,
+      "total_loss": 0.012362622655928135
+    },
+    {
+      "restart": 0,
+      "step": 899,
+      "gradient_loss": 0.012255034409463406,
+      "tv_loss": 0.0707402378320694,
+      "as_loss": 0.05497773364186287,
+      "total_loss": 0.012310720048844814
+    }
+  ],
+  "output_dir": "D:\\\u6211\u7684\u6587\u4ef6\\\u6089\u5c3c\u5927\u5b66S3\\Capstone\\fu_repro_benchmark\\outputs\\attack_reproduction\\gat_la_reconstruction\\run-20260525-201041"
+}

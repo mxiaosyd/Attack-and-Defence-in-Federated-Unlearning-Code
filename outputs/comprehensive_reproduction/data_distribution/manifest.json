@@ -1,0 +1,77 @@
+{
+  "experiment": "data_distribution",
+  "description": "Dataset and IID/non-IID distribution comparison.",
+  "focus_metrics": [
+    "clean_acc",
+    "clean_acc_gap_to_retrain",
+    "asr",
+    "asr_gap_to_retrain"
+  ],
+  "elapsed_sec": 3123.2316088676453,
+  "scenarios": [
+    "mnist_iid_backdoor_square",
+    "mnist_dirichlet_alpha1_backdoor_square",
+    "mnist_dirichlet_alpha05_backdoor_square",
+    "mnist_dirichlet_alpha01_backdoor_square",
+    "fmnist_iid_backdoor_square",
+    "fmnist_dirichlet_alpha05_backdoor_square",
+    "cifar10_iid_backdoor_square",
+    "cifar10_dirichlet_alpha05_backdoor_square"
+  ],
+  "runs": [
+    {
+      "scenario": "mnist_iid_backdoor_square",
+      "elapsed_sec": 422.49636816978455,
+      "log_path": "outputs\\comprehensive_reproduction\\data_distribution\\mnist_iid_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\data_distribution\\mnist_iid_backdoor_square\\run-20260524-030927"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha1_backdoor_square",
+      "elapsed_sec": 433.69309091567993,
+      "log_path": "outputs\\comprehensive_reproduction\\data_distribution\\mnist_dirichlet_alpha1_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\data_distribution\\mnist_dirichlet_alpha1_backdoor_square\\run-20260524-031629"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha05_backdoor_square",
+      "elapsed_sec": 443.8624289035797,
+      "log_path": "outputs\\comprehensive_reproduction\\data_distribution\\mnist_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\data_distribution\\mnist_dirichlet_alpha05_backdoor_square\\run-20260524-032343"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha01_backdoor_square",
+      "elapsed_sec": 422.07871103286743,
+      "log_path": "outputs\\comprehensive_reproduction\\data_distribution\\mnist_dirichlet_alpha01_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\data_distribution\\mnist_dirichlet_alpha01_backdoor_square\\run-20260524-033107"
+    },
+    {
+      "scenario": "fmnist_iid_backdoor_square",
+      "elapsed_sec": 399.7929940223694,
+      "log_path": "outputs\\comprehensive_reproduction\\data_distribution\\fmnist_iid_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\data_distribution\\fmnist_iid_backdoor_square\\run-20260524-033809"
+    },
+    {
+      "scenario": "fmnist_dirichlet_alpha05_backdoor_square",
+      "elapsed_sec": 452.51581168174744,
+      "log_path": "outputs\\comprehensive_reproduction\\data_distribution\\fmnist_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\data_distribution\\fmnist_dirichlet_alpha05_backdoor_square\\run-20260524-034449"
+    },
+    {
+      "scenario": "cifar10_iid_backdoor_square",
+      "elapsed_sec": 261.7895612716675,
+      "log_path": "outputs\\comprehensive_reproduction\\data_distribution\\cifar10_iid_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\data_distribution\\cifar10_iid_backdoor_square\\run-20260524-035221"
+    },
+    {
+      "scenario": "cifar10_dirichlet_alpha05_backdoor_square",
+      "elapsed_sec": 286.8692853450775,
+      "log_path": "outputs\\comprehensive_reproduction\\data_distribution\\cifar10_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\comprehensive_reproduction\\data_distribution\\cifar10_dirichlet_alpha05_backdoor_square\\run-20260524-035643"
+    }
+  ],
+  "outputs": {
+    "summary_csv": "outputs\\comprehensive_reproduction\\data_distribution\\summary.csv",
+    "summary_json": "outputs\\comprehensive_reproduction\\data_distribution\\summary.json",
+    "detailed_csv": "outputs\\comprehensive_reproduction\\data_distribution\\detailed_results.csv",
+    "detailed_json": "outputs\\comprehensive_reproduction\\data_distribution\\detailed_results.json"
+  }
+}

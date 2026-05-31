@@ -1,0 +1,7 @@
+{
+  "experiment": "attack_robustness",
+  "experiment_description": "Attack-type and trigger-variant comparison.",
+  "metric_focus": "asr, asr_drop_vs_poisoned, clean_acc, method-specific detection fields",
+  "name": "mnist_dirichlet_alpha05_model_replacement",
+  "description": "MNIST, non-IID, scaled model-replacement backdoor"
+}

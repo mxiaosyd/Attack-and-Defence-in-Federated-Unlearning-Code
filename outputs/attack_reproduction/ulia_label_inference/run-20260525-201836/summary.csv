@@ -1,0 +1,10 @@
+mean_asr_iou,method,scenario,std_asr_iou,trials
+1.0,federaser,sample,0.0,30
+1.0,federaser,class,0.0,30
+1.0,federaser,client,0.0,30
+1.0,rapid_retrain,sample,0.0,30
+1.0,rapid_retrain,class,0.0,30
+1.0,rapid_retrain,client,0.0,30
+1.0,sga_ewc,sample,0.0,30
+1.0,sga_ewc,class,0.0,30
+1.0,sga_ewc,client,0.0,30

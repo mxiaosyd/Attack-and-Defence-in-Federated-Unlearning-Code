@@ -1,0 +1,7 @@
+{
+  "experiment": "data_distribution",
+  "experiment_description": "Dataset and IID/non-IID distribution comparison.",
+  "metric_focus": "clean_acc, clean_acc_gap_to_retrain, asr, asr_gap_to_retrain",
+  "name": "cifar10_iid_backdoor_square",
+  "description": "CIFAR-10, IID, square-trigger backdoor"
+}

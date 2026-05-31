@@ -1,0 +1,52 @@
+{
+  "experiment": "efficiency",
+  "description": "Runtime and storage-cost comparison on representative settings.",
+  "focus_metrics": [
+    "runtime_sec",
+    "history_storage_mb",
+    "method-specific storage fields"
+  ],
+  "methods": [
+    "FedSweep+",
+    "FAST+"
+  ],
+  "elapsed_sec": 768.9495627880096,
+  "scenarios": [
+    "synthetic_dirichlet_alpha05_backdoor_square",
+    "mnist_dirichlet_alpha05_backdoor_square",
+    "fmnist_dirichlet_alpha05_backdoor_square",
+    "cifar10_dirichlet_alpha05_backdoor_square"
+  ],
+  "runs": [
+    {
+      "scenario": "synthetic_dirichlet_alpha05_backdoor_square",
+      "elapsed_sec": 103.95006227493286,
+      "log_path": "outputs\\improved_validation\\efficiency\\synthetic_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\efficiency\\synthetic_dirichlet_alpha05_backdoor_square\\run-20260527-043313"
+    },
+    {
+      "scenario": "mnist_dirichlet_alpha05_backdoor_square",
+      "elapsed_sec": 247.28916120529175,
+      "log_path": "outputs\\improved_validation\\efficiency\\mnist_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\efficiency\\mnist_dirichlet_alpha05_backdoor_square\\run-20260527-043456"
+    },
+    {
+      "scenario": "fmnist_dirichlet_alpha05_backdoor_square",
+      "elapsed_sec": 260.7230830192566,
+      "log_path": "outputs\\improved_validation\\efficiency\\fmnist_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\efficiency\\fmnist_dirichlet_alpha05_backdoor_square\\run-20260527-043904"
+    },
+    {
+      "scenario": "cifar10_dirichlet_alpha05_backdoor_square",
+      "elapsed_sec": 156.91590762138367,
+      "log_path": "outputs\\improved_validation\\efficiency\\cifar10_dirichlet_alpha05_backdoor_square\\comprehensive.log",
+      "run_dir": "outputs\\improved_validation\\efficiency\\cifar10_dirichlet_alpha05_backdoor_square\\run-20260527-044325"
+    }
+  ],
+  "outputs": {
+    "summary_csv": "outputs\\improved_validation\\efficiency\\summary.csv",
+    "summary_json": "outputs\\improved_validation\\efficiency\\summary.json",
+    "detailed_csv": "outputs\\improved_validation\\efficiency\\detailed_results.csv",
+    "detailed_json": "outputs\\improved_validation\\efficiency\\detailed_results.json"
+  }
+}

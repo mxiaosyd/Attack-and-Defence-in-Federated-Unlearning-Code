@@ -1,0 +1,7 @@
+{
+  "experiment": "efficiency",
+  "experiment_description": "Runtime and storage-cost comparison on representative settings.",
+  "metric_focus": "runtime_sec, history_storage_mb, method-specific storage fields",
+  "name": "mnist_dirichlet_alpha05_backdoor_square",
+  "description": "MNIST, non-IID Dirichlet alpha=0.5, square-trigger backdoor"
+}
